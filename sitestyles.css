@@ -1,0 +1,96 @@
+/* Teatox Trim Solo Project
+	Author: Serghie
+	Date: 07/01/2020 */
+
+/* Header Styles */
+
+header img {
+	width: 100% ;
+}
+ 
+ul#topLinks {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ul#topLinks li {
+	display: block;
+	padding: 20px;
+	margin: 10px;
+	list-style-type: none;
+	float: left;
+	background-color: rgb(0,190,0);
+	height: 20px;
+	width: 14%;
+	color: white;
+	border-radius: 32px;
+	text-align: center;
+
+}
+
+ul#topLinks a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	
+}
+
+ul#topLinks li:hover {
+	background-color: rgb(0,255,0);
+}
+
+
+/* Main Body Styles */
+
+html {
+	background-image: url("teaplantation.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 950px;
+}
+
+
+body {
+	width: 80%;
+	height: 940px;
+	background-color: white;
+	margin: auto;
+}
+
+article {
+	float: left;
+	width: 50%;
+	height: 500px;
+	margin: 0% 5%;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	height: 500px;
+	margin: 0% 5%;
+}
+
+article {
+	content:"";
+	clear: both;
+	display: table;
+}
+
+/* Footer Styles */
+ 
+footer {
+	width: 100%;
+	background-image: radial-gradient(circle, white, white, white, lightgreen, green, darkgreen);
+	height: 70px;
+}
+
+footer hr {
+	color: rgb(0,200,0);
+}
+
+footer {
+	clear: both;
+}
+
